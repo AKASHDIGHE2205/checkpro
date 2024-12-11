@@ -4,7 +4,7 @@ import masterRoutes from './routes/masterRoutes.js';
 import authRoutes from './routes/authRoutes.js';
 import transactionRoutes from './routes/transactionRoutes.js';
 const app = express();
-const port = 3001;
+const port = 3002;
 
 // Use express.json() to parse incoming JSON data
 app.use(express.json());
